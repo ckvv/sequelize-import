@@ -1,4 +1,3 @@
-// 用户
 import type {
   InferAttributes,
   InferCreationAttributes,
@@ -9,10 +8,6 @@ import {
 } from '@sequelize/core';
 import {
   Attribute,
-  AutoIncrement,
-  Index,
-  NotNull,
-  PrimaryKey,
 } from '@sequelize/core/decorators-legacy';
 
 export class M1 extends Model<
@@ -20,16 +15,5 @@ export class M1 extends Model<
   InferCreationAttributes<M1>
 > {
   @Attribute(DataTypes.INTEGER)
-  @PrimaryKey
-  @AutoIncrement
   declare id: number;
-
-  @Attribute(DataTypes.STRING)
-  @NotNull
-  @Index({ unique: true })
-  declare username: string;
-
-  @Attribute(DataTypes.STRING)
-  @NotNull
-  declare password: string; // 变更原因
 }

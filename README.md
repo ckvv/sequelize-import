@@ -1,5 +1,5 @@
 
-[importModels][https://github.com/sequelize/sequelize/blob/main/packages/core/src/import-models.ts#L16-L34] does not work as expected
+[importModels](https://github.com/sequelize/sequelize/blob/main/packages/core/src/import-models.ts#L16-L34) does not work as expected
 
 # Reproduction steps
 
