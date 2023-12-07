@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "db:sync": "npx tsx ./src/mock/index.ts"
+    "test": "npx tsx ./src/mock/index.ts"
   },
   "keywords": [],
   "devDependencies": {

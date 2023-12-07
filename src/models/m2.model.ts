@@ -15,9 +15,9 @@ import {
   PrimaryKey,
 } from '@sequelize/core/decorators-legacy';
 
-export default class SubEvaluationRecord extends Model<
-  InferAttributes<SubEvaluationRecord>,
-  InferCreationAttributes<SubEvaluationRecord>
+export class M2 extends Model<
+  InferAttributes<M2>,
+  InferCreationAttributes<M2>
 > {
   @Attribute(DataTypes.INTEGER)
   @PrimaryKey

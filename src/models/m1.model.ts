@@ -15,9 +15,9 @@ import {
   PrimaryKey,
 } from '@sequelize/core/decorators-legacy';
 
-export class User extends Model<
-  InferAttributes<User>,
-  InferCreationAttributes<User>
+export class M1 extends Model<
+  InferAttributes<M1>,
+  InferCreationAttributes<M1>
 > {
   @Attribute(DataTypes.INTEGER)
   @PrimaryKey

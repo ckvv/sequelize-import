@@ -1,7 +1,5 @@
 {
-  "compileOnSave": true,
   "compilerOptions": {
-    "target": "ESNext",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "module": "NodeNext",
