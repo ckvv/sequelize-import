@@ -1,0 +1,15 @@
+{
+  "name": "sequelize-import",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db:sync": "npx tsx ./src/mock/index.ts"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@sequelize/core": "7.0.0-alpha.29"
+  },
+  "author": "",
+  "license": "ISC"
+}
